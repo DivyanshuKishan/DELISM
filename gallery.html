@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 2px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+body{
+background-color:grey;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Gallery</h1>
+  <p>Explore Images</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="redfort.jpg" style="width:100%">
+    <img src="redfort1.jpg" style="width:100%">
+    <img src="redfort2.jpg" style="width:100%">
+    <img src="qutub.jpg" style="width:100%">
+    <img src="qutub1.jpg" style="width:100%">
+    <img src="qutub2.jpg" style="width:100%">
+    <img src="tomb.jpg" style="width:100%">
+<img src="Raj_Ghat.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tomb1.jpeg" style="width:100%">
+    <img src="tomb2.jpg" style="width:100%">
+    <img src="India_gate.jpg" style="width:100%">
+    <img src="India_gate1.jpg" style="width:100%">
+    <img src="India_gate2.jpg" style="width:100%">
+    <img src="jama.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="jama1.jpg" style="width:100%">
+    <img src="jama2.jpg" style="width:100%">
+    <img src="lotus.jpg" style="width:100%">
+    <img src="lotus1.jpg" style="width:100%">
+    <img src="lotus2.jpg" style="width:100%">
+    <img src="Akshardham.jpg" style="width:100%">
+    <img src="Akshardham1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Akshardham2.jpg" style="width:100%">
+    <img src="Bhavan.jpg" style="width:100%">
+    <img src="Parliament.jpg" style="width:100%">
+    <img src="jantar.jpg" style="width:100%">
+    <img src="Gurudwara.jpg" style="width:100%">
+    <img src="Gurudwara1.png" style="width:100%">
+ <img src="Gurudwara2.jpg" style="width:100%">
+    <img src="Musium.jpg" style="width:100%">
+ <img src="Zoo.jpg" style="width:100%">
+  </div>
+
+   <div class="column">
+   
+
+   
+   
+  </div>
+</div>
+
+</body>
+</html>
